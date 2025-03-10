@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="/CSS/Web Page.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: poppins, sans-serif;
+            background-color: #ffff;
+
+        }
+
+        #title {
+            text-align: center;
+            margin-bottom: 30px;
+            text-decoration: underline;
+            text-decoration-color: chocolate;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(242, 248, 253);
+            width: 85%;
+            margin-top: 100px;
+            height: 90px;
+            margin: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 5px 5px;
+        }
+
+        .navigation h2 {
+            margin-right: 30px;
+        }
+
+        .computer {
+            color: chocolate;
+        }
+
+        .science {
+            color: black;
+        }
+
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .navigation ul li {
+            display: inline;
+        }
+
+        /* Default Link Styling */
+        .navigation ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 5px 5px;
+            transition: 0.3s ease-in-out;
+        }
+
+        /* Visited Link Effect */
+        .navigation ul li a:visited {
+            color: black !important;
+        }
+
+        /* Hover Effect - Override Visited */
+        .navigation ul li a:hover,
+        .navigation ul li a:visited:hover {
+            color: white !important;
+            background-color: black;
+            border-radius: 5px;
+        }
+
+        /* Click (Active) Effect */
+        .navigation ul li a:active {
+            color: red;
+        }
+
+        .background-container {
+            width: 1150px;
+            height: 500px;
+            background-image: url('/Images/Web Page Image.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 2px auto 0 auto;
+            display: block;
+}
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Assignments of Web System</h1>
+    <div class="header">
+        <div class="navigation">
+            <h2>
+                <span class="computer">Computer</span>
+                <span class="science">Science</span>
+            </h2>
+            <ul>
+                <li><a href="Diamond.html">Diamond</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="Marquee.html">Marquee</a></li>
+                <li><a href="Fixed Bg Image.html">fixed image</a></li>
+                <li><a href="Hyper Links.html">Hyper Links</a></li>
+                <li><a href="Hovering.html">Hover Case</a></li>
+                <li><a href="Mobile Table.html">Mobile Table</a></li>
+                <li><a href="FlexBox Layout.html">FlexBox Layout</a></li>
+                <li><a href="Login Page.html">Login Page</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="background-container"></div>
+</body>
+
+</html>
