@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#marquee{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    margin-top: 10px;
+}
+.marquee{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: darkslategrey;
+    margin-top: 20px;
+    text-align: center;
+}
+.marquee h2{
+    background-color: white;
+    width: 200px;
+}
+.marquee h3{
+    background-color: green;
+    width: 160px;
+}
+#natural{
+    width: 270px;
+    height: 175px;
+    margin-left: 40%;
+}
+#nature{
+    width: 270px;
+    height: 175px;
+    margin-left: 10%;
+}
+    </style>
+</head>
+<body>
+    
+    <!-- Marquee Tag Ka Use -->
+    <h1 id="marquee">Marquee Tag with Image</h1>
+    <div class="marquee">
+        <marquee direction="right">
+            <h2>This is Heading 1</h2>
+        </marquee>
+        <marquee direction="left">
+            <h3>This is Heading 2</h3>
+        </marquee>
+        <marquee direction="Up"><img src="/Images/nature.avif" alt="Nature Life Image" id="natural"></marquee>
+        <marquee direction="down"><img src="/Images/nature.avif" alt="Nature Life Image" id="nature"></marquee>
+    </div>
+
+</body>
+</html>
