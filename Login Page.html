@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #login {
+            background-image: url(/Images/BgImage.webp);
+            background-repeat: no-repeat;
+            background-size: 800px 600px;
+            background-position: center;
+            width: 100%;
+            height: 550px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #login h1 {
+            text-align: center;
+        }
+
+        .login-container {
+            width: 300px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            /* Transparent black background */
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: darkorange;
+        }
+
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 95%;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Login Form -->
+    <div id="login">
+        <div class="login-container">
+          <form action="">
+            <h2>Login Form</h2>
+            <input type="text" placeholder="Username" required title="Put here your username">
+            <input type="password" placeholder="Please Enter User Password" required title="Put here your password">
+            <button>Login</button>
+          </form>
+        </div>
+    </div>
+</body>
+
+</html>
